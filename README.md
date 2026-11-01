@@ -1,56 +1,32 @@
-# Welcome to your Expo app 👋
+# Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+I created a mobile app to help people who are planning a wedding. It includes two features, a wedding date countdown and a checklist.
+There are plenty of wedding planning apps out there but they often center around advertising, I believe that this is distracting and
+unhelpful to the customer. So I made a simple application that is focused on the checklist and countdown aspects of a planning app. 
+In future versions there would be more functionality, but for now I kept it simple with a couple useful tools.
 
-## Get started
+In the wedding countdown side of the app all you need to do is put in your expected wedding date in the correct format and then
+you have an accurate countdown until that day! You can use this for planning and reminding yourself of upcoming due dates.
 
-1. Install dependencies
+In the checklist side of this app, you can check off your tasks and even come back to the page later to find them still checked off.
+This helps you remind yourself of important tasks that aren't complete yet.
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+[Software Demo Video](https://youtu.be/2Wcuqn9L25Q)
 
-   ```bash
-   npx expo start
-   ```
+# Development Environment
 
-In the output, you'll find options to open the app in a
+I used Visual Studio Code as my IDE for this program. 
+I used React JS's Expo which lets you develop apps for mobile, desktop, or web.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# Useful Websites
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+{Make a list of websites that you found helpful in this project}
+* [Official Expo Instructions](https://docs.expo.dev/tutorial/introduction/)
+* [Expo's Homepage](https://expo.dev/)
 
-## Get a fresh project
+# Future Work
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* I plan to make the checklist customizable so you can add your own items that are more unique to your wedding planning journey.
+* I also plan to include a functionality where you can add dollar amounts to how much you spent on each checklist item and see how much of the budget you have left
+* One big thing that would improve my application is making it super custom to the user, the user can save their wedding date, venue, caterers, etc. This way they can see everything they have planned in one place.
